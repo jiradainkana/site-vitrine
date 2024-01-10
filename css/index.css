@@ -1,0 +1,67 @@
+body {
+  font-family: lucida Sans;
+}
+
+.section {
+  padding: 20px 0;
+}
+/* header */
+header {
+  right: 20px;
+  height: auto;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+header .icon {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  display: none;
+}
+
+header .logo h2 {
+  font-size: 35px;
+}
+header nav .nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header nav .nav-list .list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+header nav .nav-list .list a {
+  display: block;
+  padding: 15px 0px;
+  margin: 9px 0px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+header nav .nav-list .list a:hover {
+  color: #7cb62f;
+}
+@media (max-width: 575px) {
+  header nav .nav-list {
+    display: none;
+    text-align: center;
+    padding: 0;
+  }
+  header .logo {
+    text-align: center;
+  }
+  header .icon {
+    display: flex;
+    position: relative;
+    left: -5px;
+  }
+}
+/*home section*/
+
+
